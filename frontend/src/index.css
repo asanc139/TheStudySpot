@@ -1,0 +1,201 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+.site-container {
+  min-height: 100vh;
+}
+.logo {
+  border-radius: 50%;
+  max-height: 70px;
+  width: auto;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  height: auto;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 0%;
+  padding-left: 0%;
+}
+
+.hero {
+  width: 100%;
+  background-size: cover;
+}
+
+.btn-primary,
+.btn-outline-primary {
+  background-color: #f0c040;
+  color: black;
+  size: 30px;
+}
+
+/* sidebar */
+.navbar-brand {
+  font-weight: bold;
+}
+
+.side-nav-button {
+  margin-left: 20px;
+}
+
+.side-navbar {
+  width: 240px;
+  height: 100%;
+  position: absolute;
+  left: -300px;
+  background-color: #100901;
+  transition: 0.5s;
+}
+
+.site-container {
+  transition: 0.4s;
+}
+.active-cont {
+  margin-left: 240px;
+}
+.active-nav {
+  left: 0;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.thestudyspot {
+  justify-content: center;
+}
+
+main {
+  flex: 1;
+}
+/* Footer section */
+
+button {
+  border: 1px solid var(--primary-color);
+  background-color: #0d6efd;
+  border-radius: 50%;
+  color: var(--primary-color);
+  font-size: 19px;
+  font-weight: bold;
+  padding: 9px 36px;
+  height: fit-content;
+  cursor: pointer;
+}
+
+/*Hero Section */
+.heroimg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 0%;
+  padding-left: 0%;
+  object-fit: contain;
+}
+
+.hero-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 0%;
+  padding-right: 0%;
+  justify-content: center;
+}
+
+.hero-container > h1 {
+  color: #fff;
+  font-size: 60px;
+  justify-content: center;
+  object-fit: contain;
+
+  text-overflow: none;
+}
+
+.hero-container > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  justify-content: center;
+}
+
+.hero-btns {
+  margin-top: 32px;
+}
+
+.hero-btns .btn {
+  margin: 6px;
+}
+.hero-btns .btn {
+  margin: 6px;
+}
+
+.hero-container > p {
+  font-size: 30px;
+}
+
+.btn {
+  width: 100%;
+}
+
+/* pricing section*/
+.my-container {
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+/* rating section */
+.rating-col {
+  display: inline-block;
+  flex-direction: row;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.badge {
+  margin-right: 10px;
+}
+
+.rating-stars {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.average-rating {
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+/* Footer Section */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+}
+
+.button-left {
+  margin-left: 20px;
+}
+
+.button-right {
+  margin-right: 20px;
+}
